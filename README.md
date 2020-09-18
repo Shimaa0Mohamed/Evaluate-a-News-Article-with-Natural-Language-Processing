@@ -12,6 +12,22 @@ in this project i used **_webpack_** build tool in building website that use **_
  ## How To Run Locally
  project run on port 3013 put you can change it  in src/server/index.js
  
+ ## Steps to handle api key
+ go to https://www.meaningcloud.com/developer/sentiment-analysis and create account to get api key 
+ then ----->
+ Use npm to install the dotenv package - npm install dotenv This will allow us to use environment variables we set in a new file
+Create a new .env file in the root of your project.
+Fill the .env file with your API keys like this:
+```
+API_KEY=**************************
+```
+If you want to refer the environment variables, try putting a prefix process.env. in front of the variable name in the server/index.js file, an example might look like this:
+console.log(`Your API key is ${process.env.API_KEY}`);
+
+Go to your .gitignore file, in the project root, and add .env. It will make sure that we don't push our environment variables to Github! If you forget this step, all of the work we did to protect our API keys would become pointless.
+
+--------------------------------------------------------------------------------
+ 
  in the terminal or cmd you can run the project on production mode or development mode 
  ```
  npm i 
