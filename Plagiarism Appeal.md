@@ -1,14 +1,13 @@
-# here i will explain how i code my project step by step
-      
+# here i will explain how i code my project step by step #
 
-    1- i follow the course step by step and at the end of course i get this edition 
+###    1- i follow the course step by step and at the end of course i get this edition 
     ```
         https://drive.google.com/file/d/14s_B3GiXZ3zr7eAI-_j3DKhjsY7oTUCi/view?usp=sharing
     ```
 
-    2-i make changes to html &scss "form design , where data will appear ,footer ,.."
+###    2-i make changes to html &scss "form design , where data will appear ,footer ,.."
 
-    3-start to code api in server side &client side 
+###    3-start to code api in server side &client side 
         a- download meaning-cloud library"(
         
         ```npm install meaning-cloud --save
@@ -105,11 +104,11 @@
                   res.send(body) 
               ```
        ---------------------------------------------------------------------
-    3- because all js files  in client will not appear to project without i import it in 
+###    3- because all js files  in client will not appear to project without i import it in 
                 client/index.js 
                 i export formHandler and import it in client /index.js & also to see design in html tat will not appear if we dont import it in client /index.js 
                 i import all scss files 
-    4- final step is jest test to test js functions in client side 
+###   4- final step is jest test to test js functions in client side 
                  i foloow udacity project instructions and examples to npm install  it 
                 and also inatall
                 ```
@@ -119,7 +118,7 @@
                                   "verbose": true,
                                ```
                to solve jest error tat i face
-  5- i deploy my project in heraku
+###  5- i deploy my project in heraku
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 # above i explain how i code my project 
 ## i get stuck many times in this project i work in it for 18 days...
